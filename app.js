@@ -42,7 +42,7 @@ app.post('/', (req,res)=>{
     const options = {
         method: "POST",
         //user:pass(api key)
-        auth: "doge:a9cdf99140c27f0b14cd6a125e05a19e-us14"
+        auth: "doge:<an api key here>"
     }
     const request = https.request(url, options, (response) => {
 
